@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HF Software - Soluções em Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">HF Software</div>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato" id="btnAbrirModal" class="btn-destaque">Solicitar Orçamento</a>
+            <a href="https://wa.me/5575981832950?text=Olá!%20Visitei%20o%20site%20da%20HF%20Software%20e%20gostaria%20de%20solicitar%20um%20orçamento." class="btn-orcamento" target="_blank">
+  Solicitar Orçamento
+</a>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <section class="hero">
+        <h1>Transformando Ideias em Código</h1>
+        <p>Desenvolvimento de soluções web, sistemas backend robustos e aplicações sob medida para o seu negócio.</p>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="servicos-container">
+        <div class="card-servico">
+            <h3>Desenvolvimento Web</h3>
+            <p>Aplicações modernas, rápidas e responsivas utilizando JavaScript, HTML e CSS.</p>
+        </div>
+        <div class="card-servico">
+            <h3>Sistemas Backend</h3>
+            <p>APIs seguras, modelagem de banco de dados e lógica de negócios estruturada em Java.</p>
+        </div>
+        <div class="card-servico">
+            <h3>Integração de Sistemas</h3>
+            <p>Conexão entre sistemas, gerenciamento de dados e otimização de processos.</p>
+        </div>
+    </section>
+
+    <!-- Modal de Contato (Escondido por padrão) -->
+    <div id="modalContato" class="modal">
+        <div class="modal-conteudo">
+            <span id="btnFecharModal" class="fechar">&times;</span>
+            <h2>Fale com a HF Software</h2>
+
+            <form id="formOrcamento">
+                <input type="text" id="inputNome" placeholder="Seu Nome" required>
+                <input type="email" id="inputEmail" placeholder="Seu E-mail" required>
+                <textarea id="inputDescricao" placeholder="Descreva o que você precisa..." rows="4" required></textarea>
+                <button type="submit" class="btn-enviar">Enviar Pedido</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script src="script.js"></script>
+<head><link rel="stylesheet" href="12.css">
+    <body><script src="js"></script>
